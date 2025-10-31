@@ -11,3 +11,12 @@ const secondProductList = [
 ];
 
 // เริ่มเขียนโค้ดตรงนี้
+// const newProductList = []
+// for(let item of firstProductList){
+//   newProductList.push(item)
+// }
+// for (let item of secondProductList){
+//   newProductList.push(item)
+// }
+const newProductList = [...firstProductList, ...secondProductList];
+console.log(newProductList);

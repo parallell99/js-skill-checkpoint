@@ -8,3 +8,10 @@ const userTaskList = [
 ];
 
 // เริ่มเขียนโค้ดตรงนี้
+userTaskList.push({id: 5,task:"Walk the dog"})
+userTaskList[3].task = "Go to the gym"
+console.log(userTaskList);
+userTaskList.pop()
+
+
+console.log(userTaskList[3]);
