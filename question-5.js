@@ -2,8 +2,8 @@
 
 function calculateTotalPrice(arr) {
   // เริ่มเขียนโค้ดตรงนี้
-  // let arr = cart;
-  
+ 
+
   // let total = 0;
   // for (let i = 0; i < arr.length; i++) {
   //   let total2 = arr[i].price * arr[i].quantity;
