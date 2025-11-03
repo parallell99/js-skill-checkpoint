@@ -10,7 +10,7 @@ inventory.apple.quantity = 200;
 inventory.orange = { price: 20, quantity: 300 };
 let sum = 0;
 for (let item in inventory) {
-  sum += inventory[item].quantity;
+  sum += (inventory[item].quantity * inventory[item].price)
 }
 console.log(`Total inventory value: ${sum} baht`);
 
