@@ -18,7 +18,7 @@ function calculateTotalPrice() {
 
   let input = arguments[0];
 
-  // let total = input.map(n => n.price * n.quantity).reduce((acc,curr) => acc + curr,0)
+ 
   let total = input.reduce((acc, curr) => {
     let sumprice = (acc += (curr.price * curr.quantity));
     return sumprice
